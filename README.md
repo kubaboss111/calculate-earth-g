@@ -15,3 +15,12 @@ Ponieważ wyciągnięcie $g$ z tego równania za pomocą przekształceń algebra
 ##  Jak działa algorytm?
 Program wykorzystuje biblioteki `numpy` oraz `scipy` (konkretnie funkcję `fsolve` z modułu `scipy.optimize`). 
 Algorytm szuka miejsca zerowego przekształconej funkcji, dopasowując wartość $g$ tak, aby zrównoważyć lewą i prawą stronę równania dla zmierzonego przez nas czasu lotu ($t$) z dokładnością do ułamków sekund (odczytanych z wideo nagranego w 200 FPS).
+
+# Parametry eksperymentuWartości użyte w naszym doświadczeniu (można je dowolnie edytować w kodzie): 
+Wysokość zrzutu ($h$): 1.00 m
+Klatkaż wideo: 200 fps (iPhone PAL mode)
+Zliczone klatki: 90.5 klatki
+Masa obiektu: 173 gŚrednica obiektu: 3.2 cm
+# Zespół projektowy
+Kuba Kulczyński
+Szymon Domański
